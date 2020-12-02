@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(0, 102, 255);
+}
+nav h1{
+    text-align: center;
+    background-color: rgb(5, 5, 179);
+    margin: -18px -10px 20px -10px;
+    padding: 20px;
+    box-shadow: 2px rgb(4, 4, 153);
+    width: 100%;
+    position: fixed;
+}
+.dog1 p{
+    text-align: left;
+    padding-top: 60px;
+    font-size: larger;
+    font-weight: bold;
+}
+.dog1{
+    width: 50%;
+    float: left;
+}
+.dog2{
+    width: 50%;
+    float: right;
+    padding-top: 60px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
