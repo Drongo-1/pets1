@@ -3,27 +3,64 @@ body{
 }
 nav h1{
     text-align: center;
-    background-color: rgb(5, 5, 179);
-    margin: -18px -10px 20px -10px;
+    background-color: rgb(113, 140, 165);
+    margin: -30px -10px 20px -10px;
     padding: 20px;
-    box-shadow: 2px rgb(4, 4, 153);
     width: 100%;
     position: fixed;
 }
 .dog1 p{
-    text-align: left;
     padding-top: 60px;
-    font-size: larger;
-    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
 }
-.dog1{
-    width: 50%;
+.dog1 img{
+    margin-left: 25px;
+}
+.dog2 h1{
+    text-align: center;
+   
+}
+.dog2 p,.dog2 ul{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.dog3 h2{
+    text-align: center;
+    background-color: rgb(68, 186, 255);
+    padding: 15px;
+    margin: 0 -10px 0 -10px;
+}
+#toys .img1{
+    width: 49%;
     float: left;
 }
-.dog2{
-    width: 50%;
-    float: right;
-    padding-top: 60px;
+#toys .img1a{
+    width: 49%;
+    text-align: center;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+}
+#toys .img2a{
+    width: 50%;
+    margin-left: 50%;
+    text-align: center;
+    margin-top: -43px;
+    font-size: 20px;
+}
+#toys .img2{
+    width: 49%;
+    padding-left: 5px;
+    height: 654px;
+    /* margin-top: -40px; */
+}
+footer{
+    background-color: rgb(113, 140, 165);
+    padding: 20px;
+    margin: 10px -10px -10px -10px;
+}
+footer span{
+    margin-left: 40%;
+    font-weight: bold;
+    margin-top: -10px;
 }
